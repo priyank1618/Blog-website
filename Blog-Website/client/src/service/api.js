@@ -3,7 +3,7 @@ import axios from 'axios';
 import { API_NOTIFICATION_MESSAGES, SERVICE_URLS } from '../constants/config';
 import { getAccessToken, getRefreshToken, setAccessToken, getType } from '../utils/common-utils';
 
-const API_URL = 'http://localhost:8000';
+const API_URL = 'https://backend-gozh.onrender.com';
 //http://localhost:8000
 //https://backend-gozh.onrender.com
 const axiosInstance = axios.create({
